@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- List item name -->
+    <TextView
+        android:id="@+id/txtTransactionDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:padding="10dip"
+        android:textSize="16dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtTransactionBy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textSize="16dp"
+            android:text="You ">
+        </TextView>
+        <TextView
+            android:id="@+id/txtTransOperation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:id="@+id/txtTransactionTo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:padding="10dip"
+            android:textSize="16dp">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTransactionStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:padding="10dip"
+        android:textSize="16dp">
+    </TextView>
+</LinearLayout>
