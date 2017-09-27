@@ -34,7 +34,7 @@
         android:textColor="#040404"
         android:typeface="sans"
         android:layout_marginTop="5dip"
-        android:textSize="15dip"
+        android:textSize="20dip"
         android:textStyle="bold"/>
 
     <!-- Artist Name -->
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txtUsername"
         android:textColor="#343434"
-        android:textSize="10dip"
-        android:layout_marginTop="10dip"
+        android:textSize="15dip"
+        android:layout_marginTop="5dip"
         android:layout_toRightOf="@+id/thumbnail"
         android:text="NovoPay Balance Rs. 500" />
 

@@ -1,5 +1,6 @@
 package info.androidhive.firebase;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -21,7 +22,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class SignupActivity extends AppCompatActivity {
+public class SignupActivity extends Activity {
 
     private static final String TAG = SignupActivity.class.getSimpleName();
     private EditText inputUsername, inputEmail, inputPassword;
